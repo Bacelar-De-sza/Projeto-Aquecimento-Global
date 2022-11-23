@@ -1,0 +1,178 @@
+@charset "UTF-8"
+
+
+
+*{
+    width: 0px;
+    padding: 0px;
+    height: 0px;
+    margin: 0px;
+}
+:root{
+    
+    --font1:'Oswald', sans-serif;
+
+    --font2:  'Quicksand', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+body{
+    margin: 0px;
+     
+    padding: 0px;
+
+    background-color: rgba(0, 0, 0, 0.895);
+    
+}
+
+
+p{
+    width: 80%;
+    font-family:var(--font2);
+}
+
+p#despedida{
+    text-align: center;
+}
+}
+    
+h2{
+    font-family: var(--font1);
+
+    padding-top: 50px;
+  
+}
+
+
+
+
+
+header{
+    background-color: rgba(14, 203, 14, 0.517);
+    padding: 10px;
+    border-radius: 4px;
+
+    margin-bottom: 15px;
+
+    
+
+}
+
+header>h1{
+    margin: auto;
+    text-align: center;
+font-family: var(--font1);
+
+}
+
+header>p{
+    text-align: center;
+}
+
+header>p>a{
+    text-decoration: none;
+    color: rgba(24, 24, 207, 0.791);
+}
+
+main>h2#C{
+    
+  padding: 3px;
+    background-image: linear-gradient(to right, rgba(11, 234, 11, 0.569), transparent);
+    border-radius: 4px;
+    margin: auto;
+}
+
+p.image#c1{
+    background-image: url(../imagens/2.jpeg);
+    background-size:cover ;
+    background-attachment: fixed ;
+    text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.355);
+    font-weight: lighter;
+    color: aliceblue;
+    border-radius: 4px;
+    display: inline-block;
+    width: 400px;
+height: 450px;
+background-position: bottom;
+margin: auto;
+
+font-family: var(--font2) ;
+
+
+
+
+    
+
+    
+
+}
+p.image#c2{
+
+    background-image: url(../imagens/3.jpeg);
+    background-size:cover ;
+    background-attachment: fixed ;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.355);
+    font-weight: lighter;
+    color: aliceblue;
+    border-radius: 4px;
+width: 400px;
+height: 400px;
+background-position:bottom;
+margin: auto;
+
+
+}
+
+p.image{
+    display: inline-block;
+}
+
+h1{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+
+footer{
+    color: aliceblue;
+
+   
+    background-color: rgba(14, 203, 14, 0.517);
+    
+    padding-bottom: 0.02px;
+
+    border-radius: 0px 5px;
+
+}
+
+
+
+footer>h3{
+font-family: var(--font1);
+
+
+}
+a{
+    text-decoration: none;
+    color: rgba(5, 5, 250, 0.996);
+   text-shadow: 2px 2px 2x rgba(8, 8, 215, 0.622);
+   font-weight: bold;
+}
+
+@media(max-width:700px) and (min-width:0px){
+
+    main {
+        padding-left: 8px;
+    }
+
+    
+}
+
